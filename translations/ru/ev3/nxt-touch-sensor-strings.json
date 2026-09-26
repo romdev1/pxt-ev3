@@ -1,0 +1,13 @@
+{
+  "sensors.NXTTouchSensor.isPressed|block": "**датчик касания nxt** %this|нажат?",
+  "sensors.NXTTouchSensor.onEvent|block": "на **датчик касания nxt** %this|%event",
+  "sensors.NXTTouchSensor.pauseUntil|block": "пауза до **датчик касания nxt** %this|%event",
+  "sensors.NXTTouchSensor.wasPressed|block": "**датчик касания nxt** %this|был нажат?",
+  "sensors.nxtTouch1|block": "1",
+  "sensors.nxtTouch2|block": "2",
+  "sensors.nxtTouch3|block": "3",
+  "sensors.nxtTouch4|block": "4",
+  "{id:category}Sensors": "Датчики",
+  "{id:group}Touch Sensor": "Датчик касания",
+  "{id:subcategory}NXT": "NXT"
+}

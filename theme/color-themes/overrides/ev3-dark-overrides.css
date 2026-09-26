@@ -1,0 +1,330 @@
+/* EV3 Dark Theme Overrides */
+
+/* Blockly Workspace & Background */
+.blocklyMainBackground {
+    fill: #1e1e1e !important;
+}
+
+.blocklySvg {
+    background-color: #1e1e1e !important;
+}
+
+/* Blockly Grid Pattern */
+.blocklyGrid line, .blocklyGrid dot, .blocklyGrid circle {
+    fill: #333333 !important;
+    stroke: #333333 !important;
+}
+
+/* Blockly Toolbox & Flyout */
+.blocklyToolbox, .monacoToolboxDiv {
+    background: #252526 !important;
+    color: #cccccc !important;
+    border-right: 1px solid #333333 !important;
+}
+
+.blocklyTreeLabel {
+    color: #cccccc !important;
+}
+
+.blocklyTreeRow:not(.blocklyTreeSelected):hover {
+    background-color: #2a2d2e !important;
+}
+
+.blocklyTreeSelected {
+    background-color: #37373d !important;
+}
+
+.blocklyTreeSelected .blocklyTreeLabel {
+    color: #ffffff !important;
+}
+
+.blocklyFlyoutBackground {
+    fill: #252526 !important;
+    fill-opacity: 0.98 !important;
+}
+
+#blocklySearchArea {
+    background-color: #252526 !important;
+}
+
+#blocklySearchInput {
+    background: #1e1e1e !important;
+    color: #ffffff !important;
+    border: 1px solid #3e3e42 !important;
+}
+
+#blocklySearchInput i {
+    color: #cccccc !important;
+}
+
+/* Scrollbars */
+.blocklyScrollbarHandle {
+    fill: #3e3e42 !important;
+    fill-opacity: 0.8 !important;
+    rx: 4px;
+}
+
+.blocklyScrollbarHandle:hover {
+    fill: #555555 !important;
+}
+
+/* Blockly Dropdown & Context Menu */
+.blocklyWidgetDiv .blocklyMenu,
+.blocklyDropDownDiv,
+.blocklyContextMenu {
+    background: #252526 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #3e3e42 !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5) !important;
+}
+
+.blocklyMenuItem {
+    color: #e0e0e0 !important;
+}
+
+.blocklyMenuItemHighlight,
+.blocklyMenuItem:hover {
+    background-color: #094771 !important;
+    color: #ffffff !important;
+}
+
+.blocklyFieldDropdown {
+    color: #ffffff !important;
+}
+
+.blocklyTooltipDiv {
+    background-color: #2d2d30 !important;
+    color: #ffffff !important;
+    border: 1px solid #454545 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Trash Icon */
+#blocklyTrashIcon {
+    color: var(--pxt-colors-red-background) !important;
+}
+
+/* Menu Bar & Top Navigation */
+#mainmenu {
+    background: #1e1e1e !important;
+    border-bottom: 5px solid var(--pxt-header-stencil) !important;
+}
+
+.ui.inverted.menu {
+    background: #1e1e1e !important;
+}
+
+.ui.item.logo .name, .ui.item.logo .name-short {
+    color: #ffffff !important;
+}
+
+.menubar .ui.menu .brand:before {
+    border-left: 2px solid var(--pxt-neutral-alpha40) !important;
+}
+
+.menubar .ui.menu.fixed .item.editor-menuitem .ui.grid {
+    background: #252526 !important;
+    border: 1px solid #333333 !important;
+}
+
+.ui.item.editor-menuitem .active~.item.toggle {
+    background: var(--pxt-primary-background) !important;
+    color: #ffffff !important;
+}
+
+/* Bottom Editor Toolbar */
+#editortools {
+    background: #1e1e1e !important;
+    border-top: 1px solid #333333 !important;
+}
+
+.ui.button.editortools-btn,
+.simtoolbar .ui.button,
+.ui.button.collapsed-button {
+    background-color: #252526 !important;
+    color: #cccccc !important;
+    border: 1px solid #333333 !important;
+}
+
+.ui.button.editortools-btn:hover,
+.simtoolbar .ui.button:hover {
+    background-color: #333337 !important;
+    color: #ffffff !important;
+}
+
+#editortools #projectNameArea input {
+    background-color: #252526 !important;
+    color: #ffffff !important;
+    border: 1px solid #333333 !important;
+}
+
+#editortools #projectNameArea input:focus {
+    border-color: var(--pxt-primary-background) !important;
+}
+
+/* Buttons */
+.ui.button.positive {
+    background-color: var(--pxt-primary-background) !important;
+    color: #ffffff !important;
+    border: 1px solid var(--pxt-primary-background) !important;
+}
+
+.ui.button.positive:not(.disabled):hover {
+    filter: brightness(1.15) !important;
+}
+
+.ui.button.bluetooth {
+    background-color: #0089BF !important;
+    color: #ffffff !important;
+}
+
+/* Modals & Dialogs */
+.ui.modal,
+.common-modal {
+    background: #252526 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #383838 !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6) !important;
+}
+
+.ui.modal>.header,
+.common-modal-header,
+.ui.fullscreen.modal>.header {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border-bottom: 1px solid #333333 !important;
+}
+
+.ui.modal>.content,
+.common-modal-body {
+    background: #252526 !important;
+    color: #e0e0e0 !important;
+}
+
+.ui.modal>.actions,
+.common-modal-footer,
+.ui.downloaddialog.modal>.actions {
+    background-color: #1e1e1e !important;
+    border-top: 1px solid #333333 !important;
+}
+
+.common-modal-header, .common-modal-body {
+    color: var(--pxt-neutral-base) !important;
+}
+
+.modal.downloaddialog .download-hint {
+    background-color: #1e1e1e !important;
+    color: #cccccc !important;
+}
+
+.projectsdialog .ui.inverted.grey.segment {
+    background-color: #252526 !important;
+    color: #e0e0e0 !important;
+    box-shadow: none !important;
+}
+
+/* Inputs & Form Elements */
+.ui.input input,
+input[type="text"],
+input[type="search"] {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border: 1px solid #3e3e42 !important;
+}
+
+.ui.input input:focus {
+    border-color: var(--pxt-focus-border) !important;
+}
+
+/* Cards & Extension Browser */
+.common-card,
+.ui.card,
+.gallerysegment .ui.card,
+.scriptmanager .ui.cards .ui.card {
+    background: #252526 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #383838 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+.gallerysegment .ui.card:hover,
+.scriptmanager .ui.cards .ui.card:hover {
+    border: 1px solid var(--pxt-primary-background) !important;
+    background-color: #2d2d30 !important;
+}
+
+.common-extension-card {
+    background: #252526 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #383838 !important;
+}
+
+.common-card-label {
+    background-color: var(--pxt-colors-orange-background) !important;
+    border-color: var(--pxt-colors-orange-hover) !important;
+    right: -1.2rem;
+}
+
+.extension-cards {
+    gap: 1.5rem;
+}
+
+.common-extension-card img {
+    border-radius: .5rem .5rem 0 0;
+}
+
+.extensions-browser .tab-header {
+    width: auto;
+}
+
+.extensions-browser .import-button .common-button {
+    margin: 0;
+}
+
+/* Simulator Sidebar & Filemenu */
+#simulator .editor-sidebar {
+    background-color: #181818 !important;
+}
+
+#simulator .editor-sidebar .filemenu {
+    background: #1e1e1e !important;
+    color: #cccccc !important;
+}
+
+#simulator .editor-sidebar .filemenu .item,
+#simulator .editor-sidebar .filemenu .link.item {
+    color: #cccccc !important;
+}
+
+#simulator .editor-sidebar .filemenu .item:hover,
+#simulator .editor-sidebar .filemenu .link.item:hover {
+    background: #2a2d2e !important;
+    color: #ffffff !important;
+}
+
+/* Monaco Code Editor Dark Override */
+.monaco-editor,
+.monaco-editor-background,
+.monaco-editor .inputarea.ime-input {
+    background-color: #1e1e1e !important;
+}
+
+.monaco-editor .margin {
+    background-color: #1e1e1e !important;
+}
+
+/* Custom Scrollbars in Dark Mode */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+::-webkit-scrollbar-thumb {
+    background: #3e3e42;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555555;
+}

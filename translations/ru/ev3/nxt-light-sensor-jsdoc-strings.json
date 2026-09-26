@@ -1,0 +1,14 @@
+{
+  "sensors.NXTLightSensor.ambientLight": "Получает нормализованное значение окружающего света.",
+  "sensors.NXTLightSensor.ambientLightRaw": "Получает сырое значение окружающего света.",
+  "sensors.NXTLightSensor.light": "Измерьте значение окружающего или отраженного света от 0 (самый темный) до 100 (самый яркий). Для необработанных значений отражения диапазон может быть от 0 до 4095.",
+  "sensors.NXTLightSensor.lightMode": "Получает информацию о текущем режиме света.",
+  "sensors.NXTLightSensor.reflectetLight": "Получает нормализованное значение отражённого света.",
+  "sensors.NXTLightSensor.reflectetLightRaw": "Получает сырое значение отражённого света.",
+  "sensors.NXTLightSensor.setAmbientLightRange": "Установите диапазон значений для обнаружения темноты и света в режиме окружающего освещения. Это необходимо сделать для того, чтобы режим окружающего освещения определял значение в диапазоне от 0 до 100 процентов.",
+  "sensors.NXTLightSensor.setAmbientLightRange|param|bright": "значение яркого освещения, eg: 4095",
+  "sensors.NXTLightSensor.setAmbientLightRange|param|dark": "значение темного освещения, eg: 0",
+  "sensors.NXTLightSensor.setReflectedLightRange": "Установите диапазон значений для определения темных и светлых в режиме отражённого света. Это необходимо сделать для того, чтобы режим отражения определял значение в диапазоне от 0 до 100%.",
+  "sensors.NXTLightSensor.setReflectedLightRange|param|bright": "значение яркого освещения, eg: 4095",
+  "sensors.NXTLightSensor.setReflectedLightRange|param|dark": "значение темного освещения, eg: 0"
+}

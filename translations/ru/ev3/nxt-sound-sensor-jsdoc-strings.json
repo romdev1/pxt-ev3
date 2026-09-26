@@ -1,0 +1,4 @@
+{
+  "sensors.NXTSoundSensor.rawValue": "Получить сырое значение АЦП с датчика звука NXT (0–4095).",
+  "sensors.NXTSoundSensor.soundLevel": "Получить текущий уровень громкости звука с датчика звука NXT (0–100%)."
+}

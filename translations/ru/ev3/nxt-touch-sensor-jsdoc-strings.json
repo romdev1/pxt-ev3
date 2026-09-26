@@ -1,0 +1,6 @@
+{
+  "sensors.NXTTouchSensor.isPressed": "Проверить, нажат ли датчик касания NXT в данный момент.",
+  "sensors.NXTTouchSensor.onEvent": "Выполнить код, когда датчик касания NXT нажат, отпущен или кликнут.",
+  "sensors.NXTTouchSensor.pauseUntil": "Ждать, пока датчик касания NXT не будет нажат.",
+  "sensors.NXTTouchSensor.wasPressed": "Проверить, нажимался ли датчик касания NXT с момента последней проверки."
+}

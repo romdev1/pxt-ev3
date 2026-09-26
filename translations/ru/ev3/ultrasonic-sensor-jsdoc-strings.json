@@ -1,0 +1,11 @@
+{
+  "sensors.UltraSonicSensor.distance": "Получает данные о расстоянии (в см) от ультразвукового датчика.",
+  "sensors.UltraSonicSensor.onEvent": "Регистрирует код, который необходимо выполнить при приближении или обнаружении объекта.",
+  "sensors.UltraSonicSensor.onEvent|param|handler": "код, который необходимо запустить при обнаружении",
+  "sensors.UltraSonicSensor.pauseUntil": "Ждёт наступления события.",
+  "sensors.UltraSonicSensor.setThreshold": "Устанавливает пороговое значение.",
+  "sensors.UltraSonicSensor.setThreshold|param|condition": "условие приближения или обнаружения",
+  "sensors.UltraSonicSensor.setThreshold|param|value": "пороговое значение",
+  "sensors.UltraSonicSensor.threshold": "Получает пороговое значение.",
+  "sensors.UltraSonicSensor.threshold|param|condition": "условие приближения"
+}

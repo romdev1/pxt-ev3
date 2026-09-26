@@ -1,0 +1,7 @@
+{
+  "broadcast.onMessageReceived|block": "когда %id=msg_enum_shim|получено",
+  "broadcast.sendMessageAndPause|block": "отправить %id=msg_enum_shim| и ждать",
+  "broadcast.sendMessage|block": "отправить %id=msg_enum_shim",
+  "broadcast|block": "трансляция",
+  "{id:category}Broadcast": "Трансляция"
+}

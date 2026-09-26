@@ -1,0 +1,16 @@
+{
+  "sensors.GyroSensor.angle|block": "**угол** %this|гироскопа",
+  "sensors.GyroSensor.calibrate|block": "калибровать **гироскоп** %this",
+  "sensors.GyroSensor.computeDrift|block": "вычислить для **гироскопа** %this|дрифт",
+  "sensors.GyroSensor.drift|block": "дрифт %this|**гироскопа**",
+  "sensors.GyroSensor.pauseUntilRotated|block": "пауза пока **гироскоп** %this|не определит %degrees=rotationPicker|градусов",
+  "sensors.GyroSensor.rate|block": "**частота** %this|гироскопа",
+  "sensors.GyroSensor.reset|block": "сброс **гироскопа** %this",
+  "sensors.gyro1|block": "1",
+  "sensors.gyro2|block": "2",
+  "sensors.gyro3|block": "3",
+  "sensors.gyro4|block": "4",
+  "sensors|block": "Датчики",
+  "{id:category}Sensors": "Датчики",
+  "{id:group}Gyro Sensor": "Гироскопический датчик"
+}

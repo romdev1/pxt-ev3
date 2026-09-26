@@ -1,0 +1,12 @@
+{
+  "sensors.TouchSensor.isPressed|block": "**датчик касания** %this|нажат?",
+  "sensors.TouchSensor.onEvent|block": "**датчик касания** %this|%event",
+  "sensors.TouchSensor.pauseUntil|block": "пауза до **датчик касания** %this|%event",
+  "sensors.TouchSensor.wasPressed|block": "**датчик касания** %this|был нажата?",
+  "sensors.touch1|block": "1",
+  "sensors.touch2|block": "2",
+  "sensors.touch3|block": "3",
+  "sensors.touch4|block": "4",
+  "{id:category}Sensors": "Датчики",
+  "{id:group}Touch Sensor": "Датчик касания"
+}

@@ -35,6 +35,13 @@ then
         sed -i "s#\"/docs#\"$URL/docs#g" "$f" || true
         sed -i "s#\"/tutorials#\"$URL/tutorials#g" "$f" || true
     done
+
+    # Fix webmanifest scope and start_url for subpath deployments (e.g. GitHub Pages)
+    find "$OUTDIR" -type f -name '*.webmanifest' -print0 | while IFS= read -r -d '' f
+    do
+        sed -i "s#\"scope\": \"/\"#\"scope\": \"$URL/\"#g" "$f" || true
+        sed -i "s#\"start_url\": \"/\"#\"start_url\": \"$URL/\"#g" "$f" || true
+    done
 fi
 
 # Fix relative paths in download screen
@@ -42,6 +49,8 @@ sed -i "s#\"/static/#\"$URL/docs/static/#g" "$OUTDIR/editor.js" || true
 
 # Add custom .js and .css overrides
 cp -R static-files/* $OUTDIR
+mkdir -p $OUTDIR/overrides
+cp -R theme/color-themes/overrides/* $OUTDIR/overrides/ || true
 for file in $OUTDIR/*.html
 do sed -i '/<\/head>/e cat static-files/ev3-community.html' $file
 done

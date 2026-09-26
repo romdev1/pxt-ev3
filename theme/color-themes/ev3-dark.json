@@ -1,0 +1,106 @@
+{
+    "id": "ev3-dark",
+    "name": "EV3 Dark",
+    "weight": 25,
+    "monacoBaseTheme": "vs-dark",
+    "overrideFiles": [
+        "/overrides/ev3-dark-overrides.css"
+    ],
+    "colors": {
+        "pxt-header-background": "#1e1e1e",
+        "pxt-header-foreground": "#FFFFFF",
+        "pxt-header-background-hover": "#2d2d2d",
+        "pxt-header-foreground-hover": "#FFFFFF",
+        "pxt-header-stencil": "#0089BF",
+        
+        "pxt-header-secondary-background": "#252526",
+        "pxt-header-secondary-foreground": "#CCCCCC",
+
+        "pxt-primary-background": "#0089BF",
+        "pxt-primary-foreground": "#FFFFFF",
+        "pxt-primary-background-hover": "#0073A1",
+        "pxt-primary-foreground-hover": "#FFFFFF",
+        "pxt-primary-accent": "#00a5c8",
+
+        "pxt-secondary-background": "#E5A914",
+        "pxt-secondary-foreground": "#1E1E1E",
+        "pxt-secondary-background-hover": "#C9930D",
+        "pxt-secondary-foreground-hover": "#1E1E1E",
+        "pxt-secondary-accent": "#eb6306",
+
+        "pxt-tertiary-background": "#2D3748",
+        "pxt-tertiary-foreground": "#E2E8F0",
+        "pxt-tertiary-background-hover": "#4A5568",
+        "pxt-tertiary-foreground-hover": "#FFFFFF",
+        "pxt-tertiary-accent": "#0089BF",
+
+        "pxt-target-background1": "#181818",
+        "pxt-target-foreground1": "#E0E0E0",
+        "pxt-target-background1-hover": "#282828",
+        "pxt-target-foreground1-hover": "#FFFFFF",
+        "pxt-target-stencil1": "#333333",
+
+        "pxt-target-background2": "#1E1E1E",
+        "pxt-target-foreground2": "#E0E0E0",
+        "pxt-target-background2-hover": "#2D2D30",
+        "pxt-target-foreground2-hover": "#FFFFFF",
+        "pxt-target-stencil2": "#383838",
+        
+        "pxt-target-background3": "#141414",
+        "pxt-target-foreground3": "#CCCCCC",
+        "pxt-target-background3-hover": "#222222",
+        "pxt-target-foreground3-hover": "#FFFFFF",
+        "pxt-target-stencil3": "#2A2A2A",
+
+        "pxt-neutral-background1": "#1E1E1E",
+        "pxt-neutral-foreground1": "#D4D4D4",
+        "pxt-neutral-background1-hover": "#2A2D2E",
+        "pxt-neutral-foreground1-hover": "#FFFFFF",
+        "pxt-neutral-stencil1": "rgba(255, 255, 255, 0.12)",
+
+        "pxt-neutral-background2": "#252526",
+        "pxt-neutral-foreground2": "rgba(255, 255, 255, 0.7)",
+        "pxt-neutral-background2-hover": "#2D2D30",
+        "pxt-neutral-foreground2-hover": "rgba(255, 255, 255, 0.9)",
+        "pxt-neutral-stencil2": "#383838",
+
+        "pxt-neutral-background3": "#2D2D30",
+        "pxt-neutral-foreground3": "#FFFFFF",
+        "pxt-neutral-background3-hover": "#3E3E42",
+        "pxt-neutral-foreground3-hover": "#FFFFFF",
+        "pxt-neutral-stencil3": "#555555",
+        "pxt-neutral-background3-alpha90": "#1E1E1EE5",
+
+        "pxt-neutral-base": "rgba(255, 255, 255, 0.9)",
+        "pxt-neutral-alpha0": "rgba(255, 255, 255, 0)",
+        "pxt-neutral-alpha5": "rgba(255, 255, 255, 0.05)",
+        "pxt-neutral-alpha10": "rgba(255, 255, 255, 0.1)",
+        "pxt-neutral-alpha20": "rgba(255, 255, 255, 0.2)",
+        "pxt-neutral-alpha30": "rgba(255, 255, 255, 0.3)",
+        "pxt-neutral-alpha40": "rgba(255, 255, 255, 0.4)",
+        "pxt-neutral-alpha50": "rgba(255, 255, 255, 0.5)",
+
+        "pxt-link": "#4DAAF8",
+        "pxt-link-hover": "#78C2FC",
+        "pxt-focus-border": "#0089BF",
+
+        "pxt-colors-red-background": "#E53935",
+        "pxt-colors-red-foreground": "#FFFFFF",
+        "pxt-colors-red-hover": "#C62828",
+
+        "pxt-colors-green-background": "#43A047",
+        "pxt-colors-green-foreground": "#FFFFFF",
+        "pxt-colors-green-hover": "#2E7D32",
+
+        "pxt-colors-blue-background": "#0089BF",
+        "pxt-colors-blue-foreground": "#FFFFFF",
+
+        "pxt-colors-orange-background": "#FB8C00",
+        "pxt-colors-orange-foreground": "#FFFFFF",
+        "pxt-colors-orange-hover": "#EF6C00",
+
+        "pxt-colors-yellow-background": "#FDD835",
+        "pxt-colors-yellow-foreground": "#1E1E1E",
+        "pxt-colors-yellow-hover": "#FBC02D"
+    }
+}

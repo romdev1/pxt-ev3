@@ -1,0 +1,15 @@
+{
+  "UltrasonicSensorEvent.ObjectDetected|block": "объект обнаружен",
+  "UltrasonicSensorEvent.ObjectNear|block": "объект рядом",
+  "sensors.UltraSonicSensor.distance|block": "**ультразвук** %this|расстояние",
+  "sensors.UltraSonicSensor.onEvent|block": "**ультразвукоой датчик** %this|%event",
+  "sensors.UltraSonicSensor.pauseUntil|block": "пауза до **ультразвуковой датчик** %this| %event",
+  "sensors.UltraSonicSensor.setThreshold|block": "установить **ультразвуковой датчик** %this|%condition|на %value",
+  "sensors.UltraSonicSensor.threshold|block": "**ультразвуковой** датчик %this|%condition",
+  "sensors.ultrasonic1|block": "1",
+  "sensors.ultrasonic2|block": "2",
+  "sensors.ultrasonic3|block": "3",
+  "sensors.ultrasonic4|block": "4",
+  "{id:category}Sensors": "Датчики",
+  "{id:group}Ultrasonic Sensor": "Ультразвуковой датчик"
+}

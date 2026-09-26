@@ -1,0 +1,14 @@
+{
+  "brick.exitProgram|block": "остановка программы",
+  "brick.showMood|block": "показать настроение %mood=mood_image_picker",
+  "brick|block": "модуль",
+  "console.sendToScreen|block": "отправить консоль на экран",
+  "console|block": "консоль",
+  "moods|block": "настроения",
+  "{id:category}Brick": "Контроллер",
+  "{id:category}Console": "Консоль",
+  "{id:category}Images": "Изображения",
+  "{id:category}Moods": "Настроения",
+  "{id:group}Program": "Программа",
+  "{id:group}Screen": "Экран"
+}

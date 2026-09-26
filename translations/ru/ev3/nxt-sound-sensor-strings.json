@@ -1,0 +1,13 @@
+{
+  "NXTSoundSensorMode.Db|block": "дБ",
+  "NXTSoundSensorMode.DbA|block": "дБА",
+  "sensors.NXTSoundSensor.rawValue|block": "**nxt датчик звука** %this|сырое значение $mode",
+  "sensors.NXTSoundSensor.soundLevel|block": "**nxt датчик звука** %this|уровень звука $mode",
+  "sensors.nxtSound1|block": "1",
+  "sensors.nxtSound2|block": "2",
+  "sensors.nxtSound3|block": "3",
+  "sensors.nxtSound4|block": "4",
+  "{id:category}Sensors": "Датчики",
+  "{id:group}Sound Sensor": "Датчик звука",
+  "{id:subcategory}NXT": "NXT"
+}

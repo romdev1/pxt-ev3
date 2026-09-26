@@ -1,0 +1,20 @@
+{
+  "NXTLightIntensityMode.AmbientRaw|block": "сырые значения внешнего освещения",
+  "NXTLightIntensityMode.Ambient|block": "внешнее освещение",
+  "NXTLightIntensityMode.ReflectedRaw|block": "сырые значения отражения",
+  "NXTLightIntensityMode.Reflected|block": "отражённый свет",
+  "NXTLightSensorMode.AmbientLightRaw|block": "сырые значения внешнего освещения",
+  "NXTLightSensorMode.AmbientLight|block": "внешнее освещение",
+  "NXTLightSensorMode.ReflectedLightRaw|block": "сырые значения отражения",
+  "NXTLightSensorMode.ReflectedLight|block": "отражённый свет",
+  "sensors.NXTLightSensor.light|block": "**nxt датчик освещенности** $this|$mode",
+  "sensors.NXTLightSensor.setAmbientLightRange|block": "**nxt датчик освещенности** $this|установить для окружающего освещения темно $dark|ярко $bright",
+  "sensors.NXTLightSensor.setReflectedLightRange|block": "**nxt датчик освещенности** $this|установить для отражения темно $dark|ярко $bright",
+  "sensors.nxtLight1|block": "1",
+  "sensors.nxtLight2|block": "2",
+  "sensors.nxtLight3|block": "3",
+  "sensors.nxtLight4|block": "4",
+  "{id:category}Sensors": "Датчики",
+  "{id:group}Light Sensor": "Датчик освещённости",
+  "{id:subcategory}NXT": "NXT"
+}

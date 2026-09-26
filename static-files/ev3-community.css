@@ -1,3 +1,397 @@
 .ev3beta .cards .card.beta {
     display: none;
 }
+
+/* BrickCode EV3 Dark Theme Styles */
+body.ev3-dark-theme,
+[data-theme="dark"] body {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+}
+
+/* Blockly Workspace & Background */
+.ev3-dark-theme .blocklyMainBackground,
+[data-theme="dark"] .blocklyMainBackground {
+    fill: #1e1e1e !important;
+}
+
+.ev3-dark-theme .blocklySvg,
+[data-theme="dark"] .blocklySvg {
+    background-color: #1e1e1e !important;
+}
+
+.ev3-dark-theme .blocklyGrid line,
+.ev3-dark-theme .blocklyGrid dot,
+.ev3-dark-theme .blocklyGrid circle,
+[data-theme="dark"] .blocklyGrid line,
+[data-theme="dark"] .blocklyGrid dot,
+[data-theme="dark"] .blocklyGrid circle {
+    fill: #333333 !important;
+    stroke: #333333 !important;
+}
+
+/* Blockly Toolbox & Flyout */
+.ev3-dark-theme .blocklyToolbox,
+.ev3-dark-theme .monacoToolboxDiv,
+[data-theme="dark"] .blocklyToolbox,
+[data-theme="dark"] .monacoToolboxDiv {
+    background: #252526 !important;
+    color: #cccccc !important;
+    border-right: 1px solid #333333 !important;
+}
+
+.ev3-dark-theme .blocklyTreeLabel,
+[data-theme="dark"] .blocklyTreeLabel {
+    color: #cccccc !important;
+}
+
+.ev3-dark-theme .blocklyTreeRow:not(.blocklyTreeSelected):hover,
+[data-theme="dark"] .blocklyTreeRow:not(.blocklyTreeSelected):hover {
+    background-color: #2a2d2e !important;
+}
+
+.ev3-dark-theme .blocklyTreeSelected,
+[data-theme="dark"] .blocklyTreeSelected {
+    background-color: #37373d !important;
+}
+
+.ev3-dark-theme .blocklyTreeSelected .blocklyTreeLabel,
+[data-theme="dark"] .blocklyTreeSelected .blocklyTreeLabel {
+    color: #ffffff !important;
+}
+
+.ev3-dark-theme .blocklyFlyoutBackground,
+[data-theme="dark"] .blocklyFlyoutBackground {
+    fill: #252526 !important;
+    fill-opacity: 0.98 !important;
+}
+
+.ev3-dark-theme #blocklySearchArea,
+[data-theme="dark"] #blocklySearchArea {
+    background-color: #252526 !important;
+}
+
+.ev3-dark-theme #blocklySearchInput,
+[data-theme="dark"] #blocklySearchInput {
+    background: #1e1e1e !important;
+    color: #ffffff !important;
+    border: 1px solid #3e3e42 !important;
+}
+
+.ev3-dark-theme #blocklySearchInput i,
+[data-theme="dark"] #blocklySearchInput i {
+    color: #cccccc !important;
+}
+
+/* Scrollbars */
+.ev3-dark-theme .blocklyScrollbarHandle,
+[data-theme="dark"] .blocklyScrollbarHandle {
+    fill: #3e3e42 !important;
+    fill-opacity: 0.8 !important;
+    rx: 4px;
+}
+
+.ev3-dark-theme .blocklyScrollbarHandle:hover,
+[data-theme="dark"] .blocklyScrollbarHandle:hover {
+    fill: #555555 !important;
+}
+
+/* Blockly Dropdown & Context Menu */
+.ev3-dark-theme .blocklyWidgetDiv .blocklyMenu,
+.ev3-dark-theme .blocklyDropDownDiv,
+.ev3-dark-theme .blocklyContextMenu,
+[data-theme="dark"] .blocklyWidgetDiv .blocklyMenu,
+[data-theme="dark"] .blocklyDropDownDiv,
+[data-theme="dark"] .blocklyContextMenu {
+    background: #252526 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #3e3e42 !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5) !important;
+}
+
+.ev3-dark-theme .blocklyMenuItem,
+[data-theme="dark"] .blocklyMenuItem {
+    color: #e0e0e0 !important;
+}
+
+.ev3-dark-theme .blocklyMenuItemHighlight,
+.ev3-dark-theme .blocklyMenuItem:hover,
+[data-theme="dark"] .blocklyMenuItemHighlight,
+[data-theme="dark"] .blocklyMenuItem:hover {
+    background-color: #094771 !important;
+    color: #ffffff !important;
+}
+
+.ev3-dark-theme .blocklyFieldDropdown,
+[data-theme="dark"] .blocklyFieldDropdown {
+    color: #ffffff !important;
+}
+
+.ev3-dark-theme .blocklyTooltipDiv,
+[data-theme="dark"] .blocklyTooltipDiv {
+    background-color: #2d2d30 !important;
+    color: #ffffff !important;
+    border: 1px solid #454545 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Trash Icon */
+.ev3-dark-theme #blocklyTrashIcon,
+[data-theme="dark"] #blocklyTrashIcon {
+    color: #E53935 !important;
+}
+
+/* Menu Bar & Top Navigation */
+.ev3-dark-theme #mainmenu,
+[data-theme="dark"] #mainmenu {
+    background: #1e1e1e !important;
+    border-bottom: 5px solid #0089BF !important;
+}
+
+.ev3-dark-theme .ui.inverted.menu,
+[data-theme="dark"] .ui.inverted.menu {
+    background: #1e1e1e !important;
+}
+
+.ev3-dark-theme .ui.item.logo .name,
+.ev3-dark-theme .ui.item.logo .name-short,
+[data-theme="dark"] .ui.item.logo .name,
+[data-theme="dark"] .ui.item.logo .name-short {
+    color: #ffffff !important;
+}
+
+.ev3-dark-theme .menubar .ui.menu .brand:before,
+[data-theme="dark"] .menubar .ui.menu .brand:before {
+    border-left: 2px solid rgba(255, 255, 255, 0.4) !important;
+}
+
+.ev3-dark-theme .menubar .ui.menu.fixed .item.editor-menuitem .ui.grid,
+[data-theme="dark"] .menubar .ui.menu.fixed .item.editor-menuitem .ui.grid {
+    background: #252526 !important;
+    border: 1px solid #333333 !important;
+}
+
+.ev3-dark-theme .ui.item.editor-menuitem .active~.item.toggle,
+[data-theme="dark"] .ui.item.editor-menuitem .active~.item.toggle {
+    background: #0089BF !important;
+    color: #ffffff !important;
+}
+
+/* Bottom Editor Toolbar */
+.ev3-dark-theme #editortools,
+[data-theme="dark"] #editortools {
+    background: #1e1e1e !important;
+    border-top: 1px solid #333333 !important;
+}
+
+.ev3-dark-theme .ui.button.editortools-btn,
+.ev3-dark-theme .simtoolbar .ui.button,
+.ev3-dark-theme .ui.button.collapsed-button,
+[data-theme="dark"] .ui.button.editortools-btn,
+[data-theme="dark"] .simtoolbar .ui.button,
+[data-theme="dark"] .ui.button.collapsed-button {
+    background-color: #252526 !important;
+    color: #cccccc !important;
+    border: 1px solid #333333 !important;
+}
+
+.ev3-dark-theme .ui.button.editortools-btn:hover,
+.ev3-dark-theme .simtoolbar .ui.button:hover,
+[data-theme="dark"] .ui.button.editortools-btn:hover,
+[data-theme="dark"] .simtoolbar .ui.button:hover {
+    background-color: #333337 !important;
+    color: #ffffff !important;
+}
+
+.ev3-dark-theme #editortools #projectNameArea input,
+[data-theme="dark"] #editortools #projectNameArea input {
+    background-color: #252526 !important;
+    color: #ffffff !important;
+    border: 1px solid #333333 !important;
+}
+
+.ev3-dark-theme #editortools #projectNameArea input:focus,
+[data-theme="dark"] #editortools #projectNameArea input:focus {
+    border-color: #0089BF !important;
+}
+
+/* Buttons */
+.ev3-dark-theme .ui.button.positive,
+[data-theme="dark"] .ui.button.positive {
+    background-color: #0089BF !important;
+    color: #ffffff !important;
+    border: 1px solid #0089BF !important;
+}
+
+.ev3-dark-theme .ui.button.positive:not(.disabled):hover,
+[data-theme="dark"] .ui.button.positive:not(.disabled):hover {
+    filter: brightness(1.15) !important;
+}
+
+.ev3-dark-theme .ui.button.bluetooth,
+[data-theme="dark"] .ui.button.bluetooth {
+    background-color: #0089BF !important;
+    color: #ffffff !important;
+}
+
+/* Modals & Dialogs */
+.ev3-dark-theme .ui.modal,
+.ev3-dark-theme .common-modal,
+[data-theme="dark"] .ui.modal,
+[data-theme="dark"] .common-modal {
+    background: #252526 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #383838 !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6) !important;
+}
+
+.ev3-dark-theme .ui.modal>.header,
+.ev3-dark-theme .common-modal-header,
+.ev3-dark-theme .ui.fullscreen.modal>.header,
+[data-theme="dark"] .ui.modal>.header,
+[data-theme="dark"] .common-modal-header,
+[data-theme="dark"] .ui.fullscreen.modal>.header {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border-bottom: 1px solid #333333 !important;
+}
+
+.ev3-dark-theme .ui.modal>.content,
+.ev3-dark-theme .common-modal-body,
+[data-theme="dark"] .ui.modal>.content,
+[data-theme="dark"] .common-modal-body {
+    background: #252526 !important;
+    color: #e0e0e0 !important;
+}
+
+.ev3-dark-theme .ui.modal>.actions,
+.ev3-dark-theme .common-modal-footer,
+.ev3-dark-theme .ui.downloaddialog.modal>.actions,
+[data-theme="dark"] .ui.modal>.actions,
+[data-theme="dark"] .common-modal-footer,
+[data-theme="dark"] .ui.downloaddialog.modal>.actions {
+    background-color: #1e1e1e !important;
+    border-top: 1px solid #333333 !important;
+}
+
+.ev3-dark-theme .modal.downloaddialog .download-hint,
+[data-theme="dark"] .modal.downloaddialog .download-hint {
+    background-color: #1e1e1e !important;
+    color: #cccccc !important;
+}
+
+.ev3-dark-theme .projectsdialog .ui.inverted.grey.segment,
+[data-theme="dark"] .projectsdialog .ui.inverted.grey.segment {
+    background-color: #252526 !important;
+    color: #e0e0e0 !important;
+    box-shadow: none !important;
+}
+
+/* Inputs & Form Elements */
+.ev3-dark-theme .ui.input input,
+.ev3-dark-theme input[type="text"],
+.ev3-dark-theme input[type="search"],
+[data-theme="dark"] .ui.input input,
+[data-theme="dark"] input[type="text"],
+[data-theme="dark"] input[type="search"] {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border: 1px solid #3e3e42 !important;
+}
+
+.ev3-dark-theme .ui.input input:focus,
+[data-theme="dark"] .ui.input input:focus {
+    border-color: #0089BF !important;
+}
+
+/* Cards & Extension Browser */
+.ev3-dark-theme .common-card,
+.ev3-dark-theme .ui.card,
+.ev3-dark-theme .gallerysegment .ui.card,
+.ev3-dark-theme .scriptmanager .ui.cards .ui.card,
+[data-theme="dark"] .common-card,
+[data-theme="dark"] .ui.card,
+[data-theme="dark"] .gallerysegment .ui.card,
+[data-theme="dark"] .scriptmanager .ui.cards .ui.card {
+    background: #252526 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #383838 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+.ev3-dark-theme .gallerysegment .ui.card:hover,
+.ev3-dark-theme .scriptmanager .ui.cards .ui.card:hover,
+[data-theme="dark"] .gallerysegment .ui.card:hover,
+[data-theme="dark"] .scriptmanager .ui.cards .ui.card:hover {
+    border: 1px solid #0089BF !important;
+    background-color: #2d2d30 !important;
+}
+
+.ev3-dark-theme .common-extension-card,
+[data-theme="dark"] .common-extension-card {
+    background: #252526 !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #383838 !important;
+}
+
+/* Simulator Sidebar & Filemenu */
+.ev3-dark-theme #simulator .editor-sidebar,
+[data-theme="dark"] #simulator .editor-sidebar {
+    background-color: #181818 !important;
+}
+
+.ev3-dark-theme #simulator .editor-sidebar .filemenu,
+[data-theme="dark"] #simulator .editor-sidebar .filemenu {
+    background: #1e1e1e !important;
+    color: #cccccc !important;
+}
+
+.ev3-dark-theme #simulator .editor-sidebar .filemenu .item,
+.ev3-dark-theme #simulator .editor-sidebar .filemenu .link.item,
+[data-theme="dark"] #simulator .editor-sidebar .filemenu .item,
+[data-theme="dark"] #simulator .editor-sidebar .filemenu .link.item {
+    color: #cccccc !important;
+}
+
+.ev3-dark-theme #simulator .editor-sidebar .filemenu .item:hover,
+.ev3-dark-theme #simulator .editor-sidebar .filemenu .link.item:hover,
+[data-theme="dark"] #simulator .editor-sidebar .filemenu .item:hover,
+[data-theme="dark"] #simulator .editor-sidebar .filemenu .link.item:hover {
+    background: #2a2d2e !important;
+    color: #ffffff !important;
+}
+
+/* Monaco Code Editor Dark Override */
+.ev3-dark-theme .monaco-editor,
+.ev3-dark-theme .monaco-editor-background,
+.ev3-dark-theme .monaco-editor .inputarea.ime-input,
+[data-theme="dark"] .monaco-editor,
+[data-theme="dark"] .monaco-editor-background,
+[data-theme="dark"] .monaco-editor .inputarea.ime-input {
+    background-color: #1e1e1e !important;
+}
+
+.ev3-dark-theme .monaco-editor .margin,
+[data-theme="dark"] .monaco-editor .margin {
+    background-color: #1e1e1e !important;
+}
+
+/* Custom Scrollbars in Dark Mode */
+.ev3-dark-theme ::-webkit-scrollbar,
+[data-theme="dark"] ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+.ev3-dark-theme ::-webkit-scrollbar-track,
+[data-theme="dark"] ::-webkit-scrollbar-track {
+    background: #1e1e1e;
+}
+.ev3-dark-theme ::-webkit-scrollbar-thumb,
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+    background: #3e3e42;
+    border-radius: 4px;
+}
+.ev3-dark-theme ::-webkit-scrollbar-thumb:hover,
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+    background: #555555;
+}

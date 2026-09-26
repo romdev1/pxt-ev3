@@ -1,0 +1,7 @@
+{
+  "sensors.TouchSensor.isPressed": "Проверить датчик касания на нажатие.",
+  "sensors.TouchSensor.onEvent": "Выполнить действие при нажатии датчика касания.",
+  "sensors.TouchSensor.onEvent|param|body": "код, который необходимо запустить при возникновении события",
+  "sensors.TouchSensor.pauseUntil": "Подождать до тех пор, пока не произойдет касание датчика касания.",
+  "sensors.TouchSensor.wasPressed": "Проверить датчик касания на предмет касания с момента последней проверки."
+}

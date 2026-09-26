@@ -1,0 +1,19 @@
+{
+  "Separators.Comma|block": "запятая",
+  "Separators.Semicolon|block": "точка с запятой",
+  "storage.Storage.appendCSVHeaders|block": "%source|хранилище %filename|добавить заголовок CSV %headers",
+  "storage.Storage.appendCSV|block": "%source|хранилище %filename|добавить в CSV %data",
+  "storage.Storage.appendLine|block": "%source|хранилище %filename|добавить новую строку %data",
+  "storage.Storage.append|block": "%source|хранилище %filename|добавить %data",
+  "storage.Storage.exists|block": "%source|хранилище %filename|существует?",
+  "storage.Storage.limit|block": "%source|хранилище установить предел %filename|в %size|байт",
+  "storage.Storage.overwrite|block": "%source|хранилище %filename|перезаписать с %data",
+  "storage.Storage.read|block": "%source|хранилище прочитать %filename|как строку",
+  "storage.Storage.remove|block": "%source|хранилище удалить %filename",
+  "storage.Storage.size|block": "%source|хранилище размер %filename",
+  "storage.permanent|block": "постоянное",
+  "storage.setCSVSeparator|block": "для CSV установить $sep|как разделитель",
+  "storage.temporary|block": "временное",
+  "storage|block": "хранилище",
+  "{id:category}Storage": "Хранилище"
+}
